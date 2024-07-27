@@ -1,0 +1,42 @@
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100px;
+}
+.nav-logo{
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.img-responsive{
+    height: 75px;
+    width: auto;
+}
+.nav-content ul {
+    padding-right: 150px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 18px;
+}
+.nav-items{
+    display: inline;
+    letter-spacing: 0.05em;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav-items:hover {
+    cursor: pointer;
+    transition: 1s ease-in-out all;
+}
+
+/* Tablet MediaQuery */
+
+@media screen and (max-width:1200px){
+    
+    .nav-items{
+        padding: 10px;
+        transition: 2s ease-in-out all;
+    }
+}

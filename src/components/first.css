@@ -1,0 +1,37 @@
+.first{
+    min-height: 60%;
+    padding-bottom: 225px;
+    
+}
+#main-message{
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: center;
+    font-size:72px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+#small-description{
+    text-align: center;
+    font-size:20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+#get-offer{
+    display: flex;
+    margin: 0 auto;
+    background-color: transparent; 
+    font-size: 24px;
+    background-color: rgb(255, 255, 0);
+    color: #000;
+}
+#get-offer:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out all;
+}
+
+/* Mobile Media Query */
+@media screen and (max-width:500px){
+    .first{
+        min-height: 30%;
+    }
+}

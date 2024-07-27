@@ -1,0 +1,40 @@
+.second{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(39, 51, 71);
+}
+
+.about-text{
+    margin-top:8em;
+}
+.about-title{
+    font-weight:bold;
+    color:#fff;
+    font-size:40px;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+    padding-left:50px;
+    text-decoration-color:yellow;
+}
+
+.about-image{
+    margin-top:5em;
+    max-height: 550px;
+    background-size: cover;
+    background-position: center;
+    margin-right:50px; 
+}
+.about-image img{
+    width: 550px;
+    height: 450px;
+}
+.about-text p{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right:50px;
+    font-size:20px;
+    line-height: 1.25em;
+    font-weight: bold; 
+    font-family: "Tahoma, Geneva, sans-serif";
+}

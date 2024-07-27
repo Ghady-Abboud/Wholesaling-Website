@@ -1,0 +1,33 @@
+.third{
+    background-color: black;
+    min-height: 600px;
+}
+.how-it-works{
+    text-align:center;
+    padding-top:150px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset:1em;
+}
+.how-steps{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right:100px;
+    margin-left: 100px;
+}
+
+.condition, .commission, .closing{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.house-img, .money-img, .date-image{
+    padding: 20px;
+}
+.how-description{
+    margin-bottom: 0;
+}
+
+.condition p , .commission p , .closing p{
+    margin-top:2px;
+}

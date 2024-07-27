@@ -1,0 +1,10 @@
+#root {
+    margin: 0 auto;
+}
+
+.main-wrapper{
+    background-image: url("https://static1.s123-cdn-static-a.com/ready_uploads/media/7190828/2000_5fc11dda00e62.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+}   
